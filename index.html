@@ -4,6 +4,9 @@
         <style>
             code { 
                 font-family: monospace;
+                font-size: 12pt;
+                display: block;
+                white-space: pre-wrap  
             }
         </style>
         <title>Hello World</title>
@@ -17,7 +20,29 @@
     </body>
     <body>
         <code>
+
+            // Java stuff
             System.out.println("What's good");
+            for (int i = 0; i < 10; i++) {
+                System.out.println("i = " + i);
+            }
+
+
+
+            // C stuff
+            void checkDouble(double x);
+
+            double x = 4.0;
+            checkDouble(x);
+            if (x == 4.0) {
+                printf("Double: Pass-by-value");
+            } else {
+                printf("Double: Pass-by-reference");
+            }
+
+            void checkDouble(double x) {
+                x = 5.0
+            }
         </code>
     </body>
 </html>
